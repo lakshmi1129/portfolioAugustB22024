@@ -1,0 +1,156 @@
+            --------------------------------------------------------------------      
+                                         MERAN STACK
+            --------------------------------------------------------------------
+
+
+        ------------------------------------------------------------------------------
+                                             HTML
+        ------------------------------------------------------------------------------
+
+           1. Markup language - set  of rules that will define what type of content document should hold
+
+           2.HTML -  Used to display contents  in a webpage
+           3. HTML Document - collection of HTML elements
+                        -- HTML elements: starting tag, content, ending tag
+                        --Tags: <...> content </...>
+            4. HTML structure:    
+                                 <html> 
+                                      <head>
+                                        <title>
+                                           title.......
+                                         </title>
+                                      </head>
+
+                                      <body>
+                                          content
+                                      </body>
+                                   </html>
+            5. Latest version - HTML 5
+            6. Basic Tags:  Used to display content in web page
+                - Heading tags: <h1>........<h6>
+                - pragraphs tag:  <p> tag
+                - Text Decoration Tags:   
+                  - Bold -<b> tag
+                  -Itallics - <em> tag
+                  -Highlight - <mark> tag
+                  -Strike - <s> tag
+                  -Superlative - <sup>
+                  -Subscript  -<sub>
+                  - Links - <a> tag
+                  - To break line - <br> tag
+                  - Ordered List - ol tag, li tag
+                  - Unordered List - ul tag, li tag
+                  - Description List - dl tag, dt tag, dd tag
+
+                  - Table - used to display contents in rows and columns : table tag
+                  - thead : table head
+                  - tbody : table body
+                  - tr tag : rows
+                  - th / td : columns
+                  - colspan - used to merge or group columns
+                     rowspan - used to merge or group rows
+                  - Form Tags-
+                      - input tags: text, number, date
+                      - check box
+                      - Dropdown
+                      - radio button
+                      - Button
+                  - Images : img tag
+                  -container tags - can include other tags inside a tag
+                    - div tag
+                    - section tag
+                    - article tag
+                  - Embed data  from other website -
+                      -iframe
+                  - Icons - i Tag
+                  -Semantic tags - 
+                      - Header tag 
+                      - Nav tag
+                      - section tag
+                      - article tag
+                      - aside tag
+                      - Footer tag
+
+            7. Based on display value of tags in browser, we can classify tags: 
+                - Block tags- It use entire width of the browser to display content in browser
+                  ex: h1-h6 tags, p tag
+                - Inline tags - It use only  width of the content to display content in browser
+                  ex: a tag, Img tag
+
+           
+                
+       ------------------------------------------------------------------------------
+                                             CSS - Cascading Style sheet
+        ------------------------------------------------------------------------------
+
+        1. Used to style the HTMl Elements
+        2. How to apply CSS in HTML -
+              - Inline CSS - style attribute
+                 - Syntax :  style="property:value; "
+              - Internal CSS - <style>
+                  - Syntax:
+                      <style>
+                        selectors{
+                          property: value;
+                        }
+                      </style>
+               - External CSS - Use external CSS file, we have to link css file to HTML file
+                    -Syntax: 
+                        selectors{
+                          property: value;
+                        }
+          3. CSS selectors- Used to for selecting html elements to css file
+                  - Tag name
+                  - id - use #
+                  - class - use 
+                  - universal selector
+                  - Css combinators - 
+                      - Grouping selectors - use comma
+                      - Decendant selector - use space
+                      - Child selector - use  > 
+                      - sibling selector - ~
+                      - immediate sibling selector - using +
+            4. Box model
+                - border
+                - margin
+                - padding
+            5. CSS properties -
+                -float : float elements in left or right
+                - position : control position of elements in html
+                    - static
+                    - fixed
+                    - absolute
+                    - Sticky
+                - zindex
+                - flexBox : used to arrange html elements in either row/column
+                    - Flex-container: parent tag which holds elements that to be arranged as row/column, apply  flex to the parent
+                - psuedo class : define a special state of an element.
+                  syntax: selector:pseudoclass{
+                    property:value;
+                  }
+                - Grid : used to display elements in rows and columns, where we can fix the column width
+                  -Grid container: display as Grid
+                  - grid-template-column /row : to set width of column / row
+                   - repeate(column/row number , size)
+                - linear-gradient : is used to set combination of colors as background
+                    syntax: background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+                -CSS Animations- animation property, to define  @keyframes
+                -Animation libraries
+                  - animate: https://animate.style/
+                  - AOS animation: https://michalsnik.github.io/aos/
+                  - locomotive scroll
+                - website hosting:
+                      - netlify
+                      - github pages
+
+                
+       ------------------------------------------------------------------------------
+                  GIT & GITHUB
+        ------------------------------------------------------------------------------
+
+        1. GIT:  used to control versions of a code
+        2. GIT commands:
+              - git status: used to check status of git inside the folder
+              - git init : used to create/ initiate git repository in a folder
+              - git add . : used to track all untracked files to git
+              - git commit -m "message" - used to save / store tracked files to git
